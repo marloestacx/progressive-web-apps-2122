@@ -19,19 +19,7 @@
       </form>
     </header>
     <section id="items">
-      <!-- <p>Nog niks geladen</p> -->
-
-      <% data.forEach(function(item) { %>
-
-      <article>
-        <a href="/detail/<%-item.objectNumber%> }}">
-          <h2><%- item.title %></h2>
-          <h3><%- item.principalOrFirstMaker %></h3>
-          <% if(item.hasImage == true){ %> <img src= <%-
-          item.webImage.url.slice(0, -3) + "=s1000" %>> <% } %>
-        </a>
-      </article>
-      <% }) %>
+      <p><%-error%></p>
     </section>
   </body>
 </html>

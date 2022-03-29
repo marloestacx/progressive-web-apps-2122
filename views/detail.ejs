@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <%- include('./components/head.ejs') -%>
+  </head>
+  <body>
+    <header>
+      <a href="/"><h1>Rijksmuseum</h1></a>
+      <form>
+        <input type="text" placeholder="Zoek een naam...." id="searchInput" />
+        <button type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </header>
+    <h1><%- data.title %></h1>
+  </body>
+</html>
