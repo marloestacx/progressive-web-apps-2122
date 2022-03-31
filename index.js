@@ -29,36 +29,34 @@ app.get("/", (req, res) => {
 });
 
 app.get("/detail/:id", (req, res) => {
-  let imgSize = 2000;
-  const detailURL = `https://www.rijksmuseum.nl/api/nl/collection/`;
-  let getURL = detailURL + `${req.params.pathname}?key=${apiKey}`;
-  console.log(req);
-  fetch(getURL).then(async (response) => {
+  const apiURL = `https://www.rijksmuseum.nl/api/nl/collection/`;
+  let url = apiURL + `${req.params.pathname}?key=${apiKey}`;
+  fetch(url).then(async (response) => {
     let data = await response.json();
-    let object = data.artObject;
-    res.render("detail", { object, imgSize });
+    res.render("detail", { data: data.artObjects });
   });
 });
 
 app.get("/search", (req, res) => {
-  let getURL =
+  let url =
     `https://www.rijksmuseum.nl/api/nl/collection?key=${apiKey}` +
     `&q=${req.query.q}${artAmount}`;
 
-  fetch(getURL).then(async (response) => {
-    let data = await response.json();
-    let objects = data.artObjects;
-    if (objects == 0) {
-      res.render("error", {
-        title: req.query.q,
-      });
-    } else {
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
       console.log(data);
       res.render("home", {
         pageTitle: "Rijksmuseum",
         data: data.artObjects,
       });
-    }
+    })
+    .catch((err) => res.send(err));
+});
+
+app.get("/offline", (req, res) => {
+  res.render("offline", {
+    pageTitle: "offline",
   });
 });
 
