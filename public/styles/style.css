@@ -25,6 +25,7 @@ section {
 article {
   padding: 1em;
   display: flex;
+  width: 90%;
   flex-direction: column;
   align-self: center;
 }
@@ -36,7 +37,8 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   color: #c2ccce;
 }
 
