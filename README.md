@@ -5,7 +5,7 @@ View art right from your phone
 * [Concept](https://github.com/marloestacx/progressive-web-apps-2122#concept)
 * [Features](https://github.com/marloestacx/progressive-web-apps-2122#features)
 * [Installation](https://github.com/marloestacx/progressive-web-apps-2122#installation)
-* [Live Demo](https://github.com/marloestacx/progressive-web-apps-2122#live-demo)
+<!-- * [Live Demo](https://github.com/marloestacx/progressive-web-apps-2122#live-demo) -->
 * [Activity Diagram](https://github.com/marloestacx/progressive-web-apps-2122#activity-diagram)
 * [Checklist](https://github.com/marloestacx/progressive-web-apps-2122#checklist)
 * [Rubric](https://github.com/marloestacx/progressive-web-apps-2122#rubric)
@@ -37,9 +37,9 @@ Use Live Server to run the project
 
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer -->
 
-## Live Demo
+<!-- ## Live Demo
 The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
-
+ -->
 ## Activity Diagram
 
 <img src="https://github.com/marloestacx/rijksmuseum/wiki/images/ActivityDiagram.png"> 
