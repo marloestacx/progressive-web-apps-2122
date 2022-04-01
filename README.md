@@ -30,11 +30,12 @@ In the web app you can view the art. At the top is a search bar which you can se
 ## Installation 
 Clone this repository
 
-`https://github.com/marloestacx/rijksmuseum.git`
+`https://github.com/marloestacx/progressive-web-apps-2122.git`
 
+<!-- 
 Use Live Server to run the project
 
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer -->
 
 ## Live Demo
 The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
@@ -51,21 +52,9 @@ The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/
 - [ ] Art detail page
 - [ ] Sort alphabetical
 
-## Rubric
-
-Your efforts will be graded using a single point rubric (see below). You will have to pass the criterion (centre column) to pass the course. During the test you will be consulted and will be given feedback on things we think deficient and things we think are an improvement on the criterion.
-
-| Deficiency | Criterion | Improvement |
-|:--|:--|:--|
-|  | *User Interface* - you design, build and test the user interface by applying interface design principles |  |
-|  | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |  |
-|  | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html |  |
-|  | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.  |  |
-
-
 ## Sources
-* [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
-* [routie](http://projects.jga.me/routie/)
+<!-- * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
+* [routie](http://projects.jga.me/routie/) -->
 
 
 ## License
