@@ -13,6 +13,21 @@
         </button>
       </form>
     </header>
-    <h1><%- data.title %></h1>
+    <section>
+      <article>
+        <h2><%- data.title %></h2>
+        <h3><%- data.principalMaker %></h3>
+        <section class="art">
+          <section class="artInfo">
+            <p><%- data.plaqueDescriptionDutch%></p>
+            <p>Technieken: <%- data.techniques %></p>
+            <p>Matrialen: <%- data.materials %></p>
+            <a href="/"> Terug naar de startpagina</a>
+          </section>
+          <% if(data.hasImage == true){ %> <img class="detailImage" src= <%-
+          data.webImage.url.slice(0, -3) + "=s1000" %>> <% } %>
+        </section>
+      </article>
+    </section>
   </body>
 </html>
