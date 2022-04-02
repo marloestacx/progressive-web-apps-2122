@@ -19,7 +19,6 @@ app.get("/", (req, res) => {
   )
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
       res.render("home", {
         pageTitle: "Rijksmuseum",
         data: data.artObjects,
@@ -28,13 +27,19 @@ app.get("/", (req, res) => {
     .catch((err) => res.send(err));
 });
 
-app.get("/detail/:id", (req, res) => {
-  const apiURL = `https://www.rijksmuseum.nl/api/nl/collection/`;
-  let url = apiURL + `${req.params.pathname}?key=${apiKey}`;
-  fetch(url).then(async (response) => {
-    let data = await response.json();
-    res.render("detail", { data: data.artObjects });
-  });
+// Detail page
+app.get("/detail/:id", function (req, res) {
+  fetch(
+    `https://www.rijksmuseum.nl/api/nl/collection/${req.params.id}?key=${apiKey}`
+  )
+    .then(async (response) => {
+      const artWorks = await response.json();
+      res.render("detail", {
+        pageTitle: "Art" + req.params.id,
+        data: artWorks.artObject,
+      });
+    })
+    .catch((err) => res.send(err));
 });
 
 app.get("/search", (req, res) => {
@@ -46,10 +51,18 @@ app.get("/search", (req, res) => {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      res.render("home", {
-        pageTitle: "Rijksmuseum",
-        data: data.artObjects,
-      });
+      let searchData = data.artObjects;
+      if (searchData == 0) {
+        res.render("error", {
+          pageTitle: req.query.q,
+          error: "Helaas niks gevonden, zoek opnieuw",
+        });
+      } else {
+        res.render("home", {
+          pageTitle: "Rijksmuseum",
+          data: searchData,
+        });
+      }
     })
     .catch((err) => res.send(err));
 });
