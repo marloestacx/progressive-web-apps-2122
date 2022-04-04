@@ -6,29 +6,18 @@
   <body>
     <header>
       <a href="/"><h1>Rijksmuseum</h1></a>
-      <form method="get" action="/search" data-search-form>
-        <input
-          type="search"
-          name="q"
-          placeholder="Zoek kunstwerken"
-          data-search-input
-        />
-        <button type="submit">
-          <i class="fas fa-search"></i>
-        </button>
-      </form>
+      <%- include('./components/search.ejs') -%>
     </header>
     <section id="items">
-      <!-- <p>Nog niks geladen</p> -->
-
       <% data.forEach(function(item) { %>
 
       <article>
-        <a href="detail/<%-item.objectNumber %> ">
+        <a href="detail/<%-item.objectNumber %>">
           <h2><%- item.title %></h2>
           <h3><%- item.principalOrFirstMaker %></h3>
           <% if(item.hasImage == true){ %> <img src= <%-
-          item.webImage.url.slice(0, -3) + "=s1000" %>> <% } %>
+          item.webImage.url.slice(0, -3) + "=s1000" %> alt="<%- item.title%>">
+          <% } %>
         </a>
       </article>
       <% }) %>

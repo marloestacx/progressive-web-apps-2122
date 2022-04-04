@@ -6,17 +6,7 @@
   <body>
     <header>
       <a href="/"><h1>Rijksmuseum</h1></a>
-      <form method="get" action="/search" data-search-form>
-        <input
-          type="search"
-          name="q"
-          placeholder="Zoek kunstwerken"
-          data-search-input
-        />
-        <button type="submit">
-          <i class="fas fa-search"></i>
-        </button>
-      </form>
+      <%- include('./components/search.ejs') -%>
     </header>
     <section id="items">
       <p><%-error%></p>
