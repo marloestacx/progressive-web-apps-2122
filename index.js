@@ -6,7 +6,7 @@ const fetch = (...args) =>
 const app = express();
 const apiKey = process.env.APIKEY;
 const port = process.env.PORT;
-const artAmount = "&ps=100";
+const artAmount = "&ps=10";
 
 app.set("view engine", "ejs");
 app.set("views", "./views");
@@ -33,6 +33,7 @@ app.get("/detail/:id", function (req, res) {
     `https://www.rijksmuseum.nl/api/nl/collection/${req.params.id}?key=${apiKey}`
   )
     .then(async (response) => {
+      console.log(response);
       const artWorks = await response.json();
       res.render("detail", {
         pageTitle: "Art" + req.params.id,
@@ -50,7 +51,6 @@ app.get("/search", (req, res) => {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
       let searchData = data.artObjects;
       if (searchData == 0) {
         res.render("error", {
