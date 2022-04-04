@@ -5,12 +5,14 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#3F474F",
+  "theme_color": "#3F474F",
   "description": "Rijksmusem art app",
   "icons": [
     {
       "src": "images/rijks48.png",
       "sizes": "48x48",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "images/rijks72.png",
