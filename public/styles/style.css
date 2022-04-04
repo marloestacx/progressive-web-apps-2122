@@ -80,7 +80,7 @@ a {
 }
 
 .artInfo a {
-  background-color: #d55140;
+  background-color: #be4433;
   padding: 1em;
   margin-top: 2em;
   text-align: center;
@@ -88,6 +88,12 @@ a {
   color: white;
   font-weight: bold;
   line-height: 25px;
+}
+
+svg {
+  height: 1em;
+  width: 1em;
+  fill: white;
 }
 
 @media (min-width: 700px) {
