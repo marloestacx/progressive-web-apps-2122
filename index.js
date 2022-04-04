@@ -45,7 +45,7 @@ app.get("/detail/:id", function (req, res) {
 
 app.get("/search", (req, res) => {
   let url =
-    `https://www.rijksmuseum.nl/api/nl/collection?key=${apiKey}` +
+    `https://www.rijksmuseum.nl/api/nl/collection?key=${apiKey}${artAmount}` +
     `&q=${req.query.q}${artAmount}`;
 
   fetch(url)
