@@ -18,11 +18,13 @@ This project is a single page web app where you can view art that is displayed i
 
 Entree
 
-<img src="https://user-images.githubusercontent.com/24413936/161736897-1210c01a-77ab-4865-ab35-82dec4b125e4.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/24413936/161765927-e7f81802-90f0-405c-9865-b27e10b70aae.png" width="30%"> 
+
 
 Search
 
-<img src="https://user-images.githubusercontent.com/24413936/161736921-43429379-6c7f-4ce4-8ef0-078bb82e2783.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/24413936/161765937-fe15230c-41ce-46be-81ba-3b35a5186891.png" width="30%"> 
+
 
 Detail
 
@@ -30,7 +32,7 @@ Detail
 
 
 ## Features
-In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
+In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. When you click on the art you get a detail page with a description of the art and some extra information about the art. 
 
 ## Installation 
 Clone this repository
@@ -64,6 +66,7 @@ I've implemented some optimalisations to make the app even faster and better.
 
 - Minify HTML and CSS 
 - Use compression 
+- Caching headers
 - Don't use unnecessary code
 - Use responsive images
 
@@ -79,8 +82,9 @@ I didn't use CSS font-display because I don't use an external font and don't use
 
 ## Sources
 * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
-* [ejs](https://www.npmjs.com/package/ejs)
-* [compression](http://expressjs.com/en/resources/middleware/compression.html)
+* [Ejs](https://www.npmjs.com/package/ejs)
+* [Compression](http://expressjs.com/en/resources/middleware/compression.html)
+* [Caching headers](https://regbrain.com/article/cache-headers-express-js)
 
 ## License
 Usage is provided under the [MIT License](https://github.com/marloestacx/rijksmuseum/blob/main/LICENSE). See LICENSE for the full details.
