@@ -47,7 +47,8 @@ The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https:/
 
 ## Activity Diagram
 
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/ActivityDiagram.png"> 
+![ad2](https://user-images.githubusercontent.com/24413936/161734829-20f088bb-0342-4bfc-b5c3-fb29df16afbe.png)
+
 
 ## Checklist
 - [x] Show art
