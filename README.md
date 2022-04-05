@@ -2,27 +2,31 @@
 View art right from your phone
 
 ## Table of contents
-* [Concept](https://github.com/marloestacx/progressive-web-apps-2122#concept)
-* [Features](https://github.com/marloestacx/progressive-web-apps-2122#features)
-* [Installation](https://github.com/marloestacx/progressive-web-apps-2122#installation)
-<!-- * [Live Demo](https://github.com/marloestacx/progressive-web-apps-2122#live-demo) -->
-* [Activity Diagram](https://github.com/marloestacx/progressive-web-apps-2122#activity-diagram)
-* [Checklist](https://github.com/marloestacx/progressive-web-apps-2122#checklist)
-* [Rubric](https://github.com/marloestacx/progressive-web-apps-2122#rubric)
-* [Sources](https://github.com/marloestacx/progressive-web-apps-2122#sources)
-* [License](https://github.com/marloestacx/progressive-web-apps-2122#license)
+* [Concept](https://github.com/marloestacx/pwa-rijksmuseum#concept)
+* [Features](https://github.com/marloestacx/pwa-rijksmuseum#features)
+* [Installation](https://github.com/marloestacx/pwa-rijksmuseum#installation)
+* [Live Demo](https://github.com/marloestacx/pwa-rijksmuseum#live-demo)
+* [Activity Diagram](https://github.com/marloestacx/pwa-rijksmuseum#activity-diagram)
+* [Checklist](https://github.com/marloestacx/pwa-rijksmuseum#checklist)
+* [Rubric](https://github.com/marloestacx/pwa-rijksmuseum#rubric)
+* [Sources](https://github.com/marloestacx/pwa-rijksmuseum#sources)
+* [License](https://github.com/marloestacx/pwa-rijksmuseum#license)
 
 ## Concept
 This project is a single page web app where you can view art that is displayed in the Rijksmuseum. 
 
 Entree
 
-<!-- <img src="https://github.com/marloestacx/rijksmuseum/wiki/images/home.png" width="30%"> -->
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/home.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/24413936/161736897-1210c01a-77ab-4865-ab35-82dec4b125e4.png" width="30%"> 
 
 Search
 
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/search.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/24413936/161736921-43429379-6c7f-4ce4-8ef0-078bb82e2783.png" width="30%"> 
+
+Detail
+
+<img src="https://user-images.githubusercontent.com/24413936/161736974-ecf4e9c4-092d-4277-b247-b2501a5c63e6.png" width="30%"> 
+
 
 ## Features
 In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
@@ -30,31 +34,37 @@ In the web app you can view the art. At the top is a search bar which you can se
 ## Installation 
 Clone this repository
 
-`https://github.com/marloestacx/progressive-web-apps-2122.git`
+`https://github.com/marloestacx/pwa-rijksmuseum.git`
 
-<!-- 
-Use Live Server to run the project
+Install the packaages
+```
+npm install
+```
 
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer -->
+Start the app
+```
+npm start
+```
 
-<!-- ## Live Demo
-The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
- -->
+ ## Live Demo
+The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https://pwa-rijksmuseum.herokuapp.com)
+
 ## Activity Diagram
 
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/ActivityDiagram.png"> 
+![ad2](https://user-images.githubusercontent.com/24413936/161734829-20f088bb-0342-4bfc-b5c3-fb29df16afbe.png)
+
 
 ## Checklist
 - [x] Show art
 - [x] Search art
 - [x] Search art
 - [x] Add search hash
-- [ ] Art detail page
+- [x] Art detail page
 - [ ] Sort alphabetical
 
 ## Sources
-<!-- * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
-* [routie](http://projects.jga.me/routie/) -->
+* [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
+
 
 
 ## License
