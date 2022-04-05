@@ -32,14 +32,19 @@ Clone this repository
 
 `https://github.com/marloestacx/progressive-web-apps-2122.git`
 
-<!-- 
-Use Live Server to run the project
+Install the packaages
+```
+npm install
+```
 
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer -->
+Start the app
+```
+npm start
+```
 
-<!-- ## Live Demo
-The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
- -->
+ ## Live Demo
+The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https://pwa-rijksmuseum.herokuapp.com)
+
 ## Activity Diagram
 
 <img src="https://github.com/marloestacx/rijksmuseum/wiki/images/ActivityDiagram.png"> 
@@ -53,8 +58,8 @@ The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/
 - [ ] Sort alphabetical
 
 ## Sources
-<!-- * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
-* [routie](http://projects.jga.me/routie/) -->
+* [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
+
 
 
 ## License
