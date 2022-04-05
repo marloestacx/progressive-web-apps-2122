@@ -17,12 +17,16 @@ This project is a single page web app where you can view art that is displayed i
 
 Entree
 
-<!-- <img src="https://github.com/marloestacx/rijksmuseum/wiki/images/home.png" width="30%"> -->
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/home.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/24413936/161736897-1210c01a-77ab-4865-ab35-82dec4b125e4.png" width="30%"> 
 
 Search
 
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/search.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/24413936/161736921-43429379-6c7f-4ce4-8ef0-078bb82e2783.png" width="30%"> 
+
+Detail
+
+<img src="https://user-images.githubusercontent.com/24413936/161736974-ecf4e9c4-092d-4277-b247-b2501a5c63e6.png" width="30%"> 
+
 
 ## Features
 In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
@@ -55,7 +59,7 @@ The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https:/
 - [x] Search art
 - [x] Search art
 - [x] Add search hash
-- [ ] Art detail page
+- [x] Art detail page
 - [ ] Sort alphabetical
 
 ## Sources
