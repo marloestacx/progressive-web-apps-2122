@@ -32,7 +32,7 @@ Detail
 
 
 ## Features
-In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
+In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. When you click on the art you get a detail page with a description of the art and some extra information about the art. 
 
 ## Installation 
 Clone this repository
