@@ -8,12 +8,23 @@ const app = express();
 const apiKey = process.env.APIKEY;
 const port = process.env.PORT;
 const artAmount = "&ps=10";
+const period = 60 * 5 
 
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
 app.use(express.static("public"));
 app.use(compression());
+
+// caching headers
+app.use(/.*-[0-9a-f]{10}\..*/, (req, res, next) => {
+  if (req.method == 'GET') {
+  res.setHeader('Cache-control', `public, max-age=${period}`);
+} else {
+  res.set('Cache-control', `no-store`)
+}
+  next();
+});
 
 // home page
 app.get("/", (req, res) => {
