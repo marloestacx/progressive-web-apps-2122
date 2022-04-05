@@ -2,15 +2,15 @@
 View art right from your phone
 
 ## Table of contents
-* [Concept](https://github.com/marloestacx/progressive-web-apps-2122#concept)
-* [Features](https://github.com/marloestacx/progressive-web-apps-2122#features)
-* [Installation](https://github.com/marloestacx/progressive-web-apps-2122#installation)
-* [Live Demo](https://github.com/marloestacx/progressive-web-apps-2122#live-demo)
-* [Activity Diagram](https://github.com/marloestacx/progressive-web-apps-2122#activity-diagram)
-* [Checklist](https://github.com/marloestacx/progressive-web-apps-2122#checklist)
-* [Rubric](https://github.com/marloestacx/progressive-web-apps-2122#rubric)
-* [Sources](https://github.com/marloestacx/progressive-web-apps-2122#sources)
-* [License](https://github.com/marloestacx/progressive-web-apps-2122#license)
+* [Concept](https://github.com/marloestacx/pwa-rijksmuseum#concept)
+* [Features](https://github.com/marloestacx/pwa-rijksmuseum#features)
+* [Installation](https://github.com/marloestacx/pwa-rijksmuseum#installation)
+* [Live Demo](https://github.com/marloestacx/pwa-rijksmuseum#live-demo)
+* [Activity Diagram](https://github.com/marloestacx/pwa-rijksmuseum#activity-diagram)
+* [Checklist](https://github.com/marloestacx/pwa-rijksmuseum#checklist)
+* [Rubric](https://github.com/marloestacx/pwa-rijksmuseum#rubric)
+* [Sources](https://github.com/marloestacx/pwa-rijksmuseum#sources)
+* [License](https://github.com/marloestacx/pwa-rijksmuseum#license)
 
 ## Concept
 This project is a single page web app where you can view art that is displayed in the Rijksmuseum. 
@@ -34,7 +34,7 @@ In the web app you can view the art. At the top is a search bar which you can se
 ## Installation 
 Clone this repository
 
-`https://github.com/marloestacx/progressive-web-apps-2122.git`
+`https://github.com/marloestacx/pwa-rijksmuseum.git`
 
 Install the packaages
 ```
