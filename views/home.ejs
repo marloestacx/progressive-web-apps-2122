@@ -15,9 +15,14 @@
         <a href="detail/<%-item.objectNumber %>">
           <h2><%- item.title %></h2>
           <h3><%- item.principalOrFirstMaker %></h3>
-          <% if(item.hasImage == true){ %> <img src= <%-
-          item.webImage.url.slice(0, -3) + "=s1000" %> alt="<%- item.title%>">
-          <% } %>
+          <% if(item.hasImage == true){ %> <img src=<%-
+          item.webImage.url.slice(0, -3) + "=s1000" %> srcset=" <%-
+          item.webImage.url.slice(0, -3) + "=s1000" %> 1000w, <%-
+          item.webImage.url.slice(0, -3) + "=s800" %> 800w, <%-
+          item.webImage.url.slice(0, -3) + "=s600" %> 600w, <%-
+          item.webImage.url.slice(0, -3) + "=s400" %> 400w, <%-
+          item.webImage.url.slice(0, -3) + "=s200" %> 200w" sizes="(max-width:
+          768px) 50vw, 100vw" alt="<%- item.title %>"> <% } %>
         </a>
       </article>
       <% }) %>
