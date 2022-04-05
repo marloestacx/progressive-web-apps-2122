@@ -35,7 +35,9 @@ In the web app you can view the art. At the top is a search bar which you can se
 ## Installation 
 Clone this repository
 
-`https://github.com/marloestacx/pwa-rijksmuseum.git`
+```
+https://github.com/marloestacx/pwa-rijksmuseum.git
+```
 
 Install the packaages
 ```
