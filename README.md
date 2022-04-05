@@ -53,10 +53,22 @@ The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https:/
 
 ![ad2](https://user-images.githubusercontent.com/24413936/161734829-20f088bb-0342-4bfc-b5c3-fb29df16afbe.png)
 
+## Client side vs Server side rendering
+
+
+## Critical render path optimalisations
+I've implemented some optimalisations to make the app even faster and better. 
+
+- Minify HTML and CSS 
+- Use compression 
+- Don't use unnecessary code
+- Use responsive images
+
+I didn't use CSS font-display because I don't use an external font and don't use JavaScript on the client side since it's all server side now. 
+
 
 ## Checklist
 - [x] Show art
-- [x] Search art
 - [x] Search art
 - [x] Add search hash
 - [x] Art detail page
@@ -64,8 +76,8 @@ The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https:/
 
 ## Sources
 * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
-
-
+* [ejs](https://www.npmjs.com/package/ejs)
+* [compression](http://expressjs.com/en/resources/middleware/compression.html)
 
 ## License
 Usage is provided under the [MIT License](https://github.com/marloestacx/rijksmuseum/blob/main/LICENSE). See LICENSE for the full details.
