@@ -47,7 +47,6 @@ app.get("/detail/:id", function (req, res) {
     `https://www.rijksmuseum.nl/api/nl/collection/${req.params.id}?key=${apiKey}`
   )
     .then(async (response) => {
-      console.log(response);
       const artWorks = await response.json();
       res.render("detail", {
         pageTitle: "Art" + req.params.id,
