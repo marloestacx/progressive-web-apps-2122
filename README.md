@@ -18,11 +18,13 @@ This project is a single page web app where you can view art that is displayed i
 
 Entree
 
-<img src="https://user-images.githubusercontent.com/24413936/161736897-1210c01a-77ab-4865-ab35-82dec4b125e4.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/24413936/161765927-e7f81802-90f0-405c-9865-b27e10b70aae.png" width="30%"> 
+
 
 Search
 
-<img src="https://user-images.githubusercontent.com/24413936/161736921-43429379-6c7f-4ce4-8ef0-078bb82e2783.png" width="30%"> 
+<img src="https://user-images.githubusercontent.com/24413936/161765937-fe15230c-41ce-46be-81ba-3b35a5186891.png" width="30%"> 
+
 
 Detail
 
