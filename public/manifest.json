@@ -11,8 +11,7 @@
     {
       "src": "images/rijks48.png",
       "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
       "src": "images/rijks72.png",
