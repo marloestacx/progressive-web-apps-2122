@@ -23,15 +23,17 @@ section {
 }
 
 article {
+  margin: 0.2em;
   padding: 1em;
   display: flex;
   max-width: 90%;
   flex-direction: column;
-  align-self: center;
+  align-self: flex-start;
+  background-color: #97c8eb45;
 }
 
 img {
-  height: 30em;
+  width: 90vw;
   padding-top: 0.2em;
 }
 
@@ -45,7 +47,7 @@ p {
 input {
   margin-left: 0.5em;
   margin-right: 0.5em;
-  width: 60%;
+  width: 70%;
   padding: 0.5em;
   background-color: #c2ccce;
   border-radius: 1em;
