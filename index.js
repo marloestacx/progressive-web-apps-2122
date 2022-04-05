@@ -4,6 +4,7 @@ const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
 const compression = require("compression");
 const app = express();
+
 const apiKey = process.env.APIKEY;
 const port = process.env.PORT;
 const artAmount = "&ps=10";
@@ -14,6 +15,7 @@ app.set("views", "./views");
 app.use(express.static("public"));
 app.use(compression());
 
+// home page
 app.get("/", (req, res) => {
   fetch(
     `https://www.rijksmuseum.nl/api/nl/collection?key=${apiKey}${artAmount}`
@@ -28,7 +30,7 @@ app.get("/", (req, res) => {
     .catch((err) => res.send(err));
 });
 
-// Detail page
+// detail page
 app.get("/detail/:id", function (req, res) {
   fetch(
     `https://www.rijksmuseum.nl/api/nl/collection/${req.params.id}?key=${apiKey}`
@@ -44,6 +46,8 @@ app.get("/detail/:id", function (req, res) {
     .catch((err) => res.send(err));
 });
 
+
+// search page
 app.get("/search", (req, res) => {
   let url =
     `https://www.rijksmuseum.nl/api/nl/collection?key=${apiKey}${artAmount}` +
@@ -68,6 +72,8 @@ app.get("/search", (req, res) => {
     .catch((err) => res.send(err));
 });
 
+
+// offline page
 app.get("/offline", (req, res) => {
   res.render("offline", {
     pageTitle: "offline",
