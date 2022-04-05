@@ -7,8 +7,9 @@ View art right from your phone
 * [Installation](https://github.com/marloestacx/pwa-rijksmuseum#installation)
 * [Live Demo](https://github.com/marloestacx/pwa-rijksmuseum#live-demo)
 * [Activity Diagram](https://github.com/marloestacx/pwa-rijksmuseum#activity-diagram)
+* [Client side vs Server side](https://github.com/marloestacx/pwa-rijksmuseum#client-side-vs-server-side-rendering)
+* [Critical Rendering Path](https://github.com/marloestacx/pwa-rijksmuseum#critical-render-path-optimalisations)
 * [Checklist](https://github.com/marloestacx/pwa-rijksmuseum#checklist)
-* [Rubric](https://github.com/marloestacx/pwa-rijksmuseum#rubric)
 * [Sources](https://github.com/marloestacx/pwa-rijksmuseum#sources)
 * [License](https://github.com/marloestacx/pwa-rijksmuseum#license)
 
@@ -53,10 +54,10 @@ The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https:/
 
 ![ad2](https://user-images.githubusercontent.com/24413936/161734829-20f088bb-0342-4bfc-b5c3-fb29df16afbe.png)
 
-## Client side vs Server side rendering
+## Client side vs Server side
 
 
-## Critical render path optimalisations
+## Critical Rendering Path
 I've implemented some optimalisations to make the app even faster and better. 
 
 - Minify HTML and CSS 
