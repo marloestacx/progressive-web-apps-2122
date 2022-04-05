@@ -66,6 +66,7 @@ I've implemented some optimalisations to make the app even faster and better.
 
 - Minify HTML and CSS 
 - Use compression 
+- Caching headers
 - Don't use unnecessary code
 - Use responsive images
 
@@ -81,8 +82,9 @@ I didn't use CSS font-display because I don't use an external font and don't use
 
 ## Sources
 * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
-* [ejs](https://www.npmjs.com/package/ejs)
-* [compression](http://expressjs.com/en/resources/middleware/compression.html)
+* [Ejs](https://www.npmjs.com/package/ejs)
+* [Compression](http://expressjs.com/en/resources/middleware/compression.html)
+* [Caching headers](https://regbrain.com/article/cache-headers-express-js)
 
 ## License
 Usage is provided under the [MIT License](https://github.com/marloestacx/rijksmuseum/blob/main/LICENSE). See LICENSE for the full details.
