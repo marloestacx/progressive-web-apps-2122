@@ -41,7 +41,7 @@ Clone this repository
 https://github.com/marloestacx/pwa-rijksmuseum.git
 ```
 
-Install the packaages
+Install the packages
 ```
 npm install
 ```
