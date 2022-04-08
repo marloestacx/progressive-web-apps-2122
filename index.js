@@ -67,6 +67,7 @@ app.get("/search", (req, res) => {
     .then((response) => response.json())
     .then((data) => {
       let searchData = data.artObjects;
+      // if data is empty show error
       if (searchData == 0) {
         res.render("error", {
           pageTitle: req.query.q,
