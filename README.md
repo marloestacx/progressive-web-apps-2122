@@ -7,14 +7,14 @@ View art right from your phone
 * [Installation](https://github.com/marloestacx/pwa-rijksmuseum#installation)
 * [Live Demo](https://github.com/marloestacx/pwa-rijksmuseum#live-demo)
 * [Activity Diagram](https://github.com/marloestacx/pwa-rijksmuseum#activity-diagram)
-* [Client side vs Server side](https://github.com/marloestacx/pwa-rijksmuseum#client-side-vs-server-side-rendering)
-* [Critical Rendering Path](https://github.com/marloestacx/pwa-rijksmuseum#critical-render-path-optimalisations)
+* [Client side vs Server side](https://github.com/marloestacx/pwa-rijksmuseum#client-side-vs-server-side)
+* [Critical Rendering Path](https://github.com/marloestacx/pwa-rijksmuseum#critical-rendering-path)
 * [Checklist](https://github.com/marloestacx/pwa-rijksmuseum#checklist)
 * [Sources](https://github.com/marloestacx/pwa-rijksmuseum#sources)
 * [License](https://github.com/marloestacx/pwa-rijksmuseum#license)
 
 ## Concept
-This project is a single page web app where you can view art that is displayed in the Rijksmuseum. 
+The concept is a web app where you can view art from the Rijksmuseum, you can search for art by using the search bar. When you click on the art, you get some extra information about that art piece.
 
 Entree
 
@@ -32,7 +32,7 @@ Detail
 
 
 ## Features
-In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. When you click on the art you get a detail page with a description of the art and some extra information about the art. 
+On the web app, you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. When you click on the art, you get a detail page with a description of the art and some extra information about the art. 
 
 ## Installation 
 Clone this repository
@@ -52,7 +52,7 @@ npm start
 ```
 
  ## Live Demo
-The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https://pwa-rijksmuseum.herokuapp.com)
+The website can be viewed live on [https://pwa-rijksmuseum.herokuapp.com](https://pwa-rijksmuseum.herokuapp.com)
 
 ## Activity Diagram
 
@@ -60,10 +60,10 @@ The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https:/
 
 ## Client side vs Server side
 
-I noticed that with server side rendering the page loads faster than with client side. When JavaScript is turned off the page still shows the data.  
+I noticed that with server side rendering, the page loads faster than with client side. When JavaScript is turned off, the page still shows the data.  
 
 ## Critical Rendering Path
-I've implemented some optimalisations to make the app even faster and better. 
+I've implemented some optimizations to make the app even faster and better. 
 
 - Minify HTML and CSS 
 - Use compression 
