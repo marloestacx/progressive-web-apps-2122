@@ -60,6 +60,7 @@ The website can be viewd live on [https://pwa-rijksmuseum.herokuapp.com](https:/
 
 ## Client side vs Server side
 
+I noticed that with server side rendering the page loads faster than with client side. When JavaScript is turned off the page still shows the data.  
 
 ## Critical Rendering Path
 I've implemented some optimalisations to make the app even faster and better. 
